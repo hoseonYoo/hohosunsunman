@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+            /*HTML*/
+      *{margin:0; padding:0;}
+      .clearfix::after{clear:both; display:block; content:'';}
+      ul, ol, li{
+          list-style:none;
+      }
+      /*BODY*/
+      div.wrap{
+          width:100%;
+      }
+      /*header*/
+      header{
+          width:100%;
+      }
+      header > h1 > a{
+          display:block;
+          padding:30px 60px;
+      }
+      header > h1 > a > img{
+          height:44px;
+      }
+      /*section*/
+      section.content_wrap{
+          margin:0 auto;
+          width:calc(100% - 120px);
+          height:100vh;
+      }
+      section.content_wrap > div{
+          width:calc(25% - 45px);
+          height:auto;
+          float:left;
+      }
+      section.content_wrap > div > ul > li{
+          width:100%;
+          height:auto;
+          min-height:500px;
+          border-radius:40px;
+          margin-bottom: 60px;
+          background-color:#F5F5F5;
+          overflow: hidden;
+      }
+      .list_01{}
+      
+      
+      
+      .list_02{margin-left:60px;}
+      .list_03{margin-left:60px;}
+      .list_04{margin-left:60px;}
+      
+      .main_list{
+          padding-bottom:45px;
+      }
+      
+      .font_list{
+          font-size:28px;
+          color:#707070;
+          padding-top:40px;
+          padding-bottom:15px;
+          width:100%;
+          text-align:center;
+      }
+      .sub_list{
+          display:block;
+          margin-left: 40px;
+          margin-bottom:15px;
+      }
+      .content{
+          width:calc(100% - 80px);
+          margin-left:40px;
+          margin-bottom:15px;
+          min-height:80px;
+          border-radius: 20px;
+          background-color:#fff
+      }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <h1>
+                <a href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </h1>
+        </header>
+        <section class="content_wrap clearfix">
+            <div class="list_01">
+                <ul>
+                    <li class="main_list">
+                        <h2 class="font_list">
+                            간고등어
+                        </h2>
+                        <ul>
+                            <li>
+                                <span class="sub_list">
+                                    국내산
+                                </span>
+                                <ul>
+                                    <li class="content"></li>
+                                    <li class="content"></li>
+                                    <li class="content"></li>
+                                </ul>
+                            <li>
+                                <span class="sub_list">
+                                    노르웨이산
+                                </span>
+                                <ul>
+                                    <li class="content"></li>
+                                    <li class="content"></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2 class="font_list">
+                            간고등어
+                        </h2>
+                    </li>
+                    <li>
+                        <h2 class="font_list">
+                            간고등어
+                        </h2>
+                    </li>
+                </ul>
+            </div>
+            <div class="list_02">
+                <ul>
+                    <li>
+                        <h2 class="font_list">
+                            간고등어
+                        </h2>
+                    </li>
+                    <li>
+                        <h2 class="font_list">
+                            간고등어
+                        </h2>
+                    </li>
+                    <li>
+                        <h2 class="font_list">
+                            간고등어
+                        </h2>
+                    </li>
+                </ul>
+            </div>
+            <div class="list_03">
+                <ul>
+                    <li>
+                        <h2 class="font_list">
+                            간고등어
+                        </h2>
+                    </li>
+                    <li>
+                        <h2 class="font_list">
+                            간고등어
+                        </h2>
+                    </li>
+                    <li>
+                        <h2 class="font_list">
+                            간고등어
+                        </h2>
+                    </li>
+                </ul>
+            </div>
+            <div class="list_04">
+                <ul>
+                    <li>
+                        <h2 class="font_list">
+                            기타 수산물
+                        </h2>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
